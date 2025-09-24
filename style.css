@@ -1,0 +1,83 @@
+body{
+    background:rgb(192, 140, 229);
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+
+}
+h1{
+    padding: 30px;
+    color:rgb(36, 33, 32);
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 3px solid rgb(105, 38, 121);
+    border-radius: 13px;
+    background-color: rgb(203, 149, 239);
+}
+.Cal_fondo{
+
+    width: 200px;
+    padding:20px;
+    border-radius: 13px;
+    border: 3px solid rgb(14, 14, 15);
+    background:rgb(34, 33, 39);
+    display:flex;
+    flex-direction:column;
+}
+.Button_n{
+    margin:auto;
+    margin-top: 3px;
+    color: black;
+    display:flex;
+    flex-direction:row;
+}
+.Resultado{
+    display: flex;               
+    justify-content: flex-end;  
+    align-items: flex-end; 
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: wheat;
+    
+
+    text-align: end;
+    margin-bottom:10px;
+    border: 2px solid rgba(20, 18, 18, 0.801);
+    align-self: center;
+    border-radius:12px;
+    padding:3px;
+    width:190px;
+    height:70px;
+    background:rgba(54, 42, 42, 0.568);
+}
+
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:larger;
+    text-align:center;
+    color:aliceblue;
+    border-radius: 12px;
+    width: 45px;
+    height:45px;
+    margin:1px;
+    padding:1px;
+    cursor: pointer;
+    background: rgba(54, 42, 42, 0.568);
+    
+}
+.Operaciones{
+    color:rgb(252, 187, 58);
+}
+
+.Igual{
+    background-color:rgb(252, 187, 58);
+}
+
+.Eliminar{
+    color:rgb(252, 187, 58);
+}
+
+.eliminarTodo{
+    color:rgb(252, 187, 58);
+}
